@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Unit 3 Project</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<header>
+		<h1>My Dynamic Gallery </h1>
+	</header>
+	<main>
+		<p> This is my page that resizes pictures to fit your screen. </p>
+		<hr>
+		<h4> Goku </h4>
+		<picture>
+			<source media="(min-width: 769px)" srcset="images/goku2.png">
+			<source media="(min-width: 426px)" srcset="images/goku3.png">
+			<source media="(min-width: 321px)" srcset="images/goku4.png">
+			<img src="images/goku5.png" alt="This is Goku" style="width:200px;height:200px;">
+    </picture>
+		<hr>
+		<h4> Bonsai </h4>
+    <picture>
+      <source media="(min-width: 769px)" srcset="images/tree1.jpg">
+      <source media="(min-width: 426px)" srcset="images/tree2.jpg">
+      <source media="(min-width: 321px)" srcset="images/tree3.jpg">
+      <img src="images/tree4.jpg" alt="A Bonsai tree" style="width:200px;height:200px;">
+    </picture>
+		<hr>
+		<h4> Book </h4>
+    <picture>
+      <source media="(min-width: 769px)" srcset="images/book.jpg">
+      <source media="(min-width: 426px)" srcset="images/book2.jpg">
+      <source media="(min-width: 321px)" srcset="images/book3.jpg">
+      <img src="images/book4.jpg" alt="Wallpapers of books" style="width:200px;height:200px;">
+    </picture>
+	</main>
+</body>
+<footer><i> &copy; 2021 Boyd Turnbow </i></footer>
+</html>
