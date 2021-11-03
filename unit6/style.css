@@ -2,21 +2,27 @@
   height: 300px;
 }
 main {
-  background-color: black;
-  color: white;
+  
 }
 body {
+  background-color: black;
+  color: white;
   background-image: url("images/Book4.jpg");
   background-size: cover;
 }
 #wrapper {
-  width:60%
+  width:60%;
   margin: auto;
   margin-top: 30px;
 }
 ul {
  list-style-image: url("images/smallicon2.jpg");
+ background: black;
 }
 .border {
-  border-image: url("images/smallicon2.jpg") 30 round;
+  border-image-slice:13 13 13 13;
+  border-image-width:13px 13px 13px 13px;
+  border-image-outset:13px 13px 13px 13px;
+  border-image-repeat:repeat repeat;
+  border-image-source:url("https://mdn.github.io/css-examples/tools/border-image-generator/border-image-4.png");border-style:solid;
 }
