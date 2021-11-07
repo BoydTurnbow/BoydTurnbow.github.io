@@ -20,30 +20,30 @@ Add your CSS to the ID selectors below
 
 #ball{
   padding-top: 12px;
-  padding-left: 215px;
+  margin-left: 215px;
 }
 
 #turnip{
   padding-top: 193px;
-  padding-left: 489px;
+  margin-left: 489px;
 }
 
 #grass{
   padding-top: 193px;
-  padding-left: 47px;
+  margin-left: 47px;
 }
 
 #L{
   padding-top: 1358px;
-  padding-left: 292px;
+  margin-left: 292px;
 }
 
 #T{
   padding-top: 1459px;
-  padding-left: 96px; 
+  margin-left: 96px; 
 }
 
 #I{
   padding-top: 1359px;
-  padding-left: 295px; 
+  margin-left: 295px; 
 }
