@@ -11,3 +11,6 @@ img{
   height: 100px;
   object-fit: cover;
 }
+ol{
+  text-align: left;
+}

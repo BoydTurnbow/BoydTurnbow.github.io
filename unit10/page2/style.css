@@ -2,9 +2,6 @@ table{
   text-align: center;
   width:100%;
 }
-td{
-  border:1px solid black;
-}
-tr{
+td, th, tr{
   border:1px solid black;
 }
